@@ -1,0 +1,23 @@
+body {
+    background-color: #EADEDE;
+}
+
+hr {
+    border-style: none;
+    width: 3%;
+    border-top: 5px dotted gray;
+}
+
+h1 {
+    color: #000000;
+    text-shadow: 2px 2px 5px rgb(114, 111, 111);
+}
+
+h3 {
+    color: #000000;
+    text-shadow: 2px 2px 5px rgb(114, 111, 111);
+}
+
+img {
+    width: 200px;
+}
