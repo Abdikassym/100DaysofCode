@@ -9,8 +9,8 @@ url = "https://www.linkedin.com/jobs/search/?f_LF=f_AL&geoId=102257491&keywords=
 driver.get(url)
 
 PHONE_NUMBER = "87472600188"
-email = "thespasrabota@gmail.com"
-password = "enderman007"
+email = "t**********************@gmail.com"
+password = "e****************7"
 # Login
 
 
