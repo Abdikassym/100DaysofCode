@@ -9,8 +9,8 @@ url_twitter = "https://twitter.com/i/flow/login"
 url_speed_test = "https://www.speedtest.net/"
 
 username = "default_pixu"
-number = "+77472600188"
-password = "enderman007"
+number = "YOUR NUMBER"
+password = "YOUR_PASSWORD"
 
 class InternetSpeedTwitterBot:
     def __init__(self):
