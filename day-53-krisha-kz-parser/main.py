@@ -8,8 +8,8 @@ from selenium.webdriver.common.keys import Keys
 numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 
 headers = {
-    "Accept-Language": 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+    "Accept-Language": 'YOUR ACCEPT-LANGUAGE',
+    "User-Agent": "YOUR USER-AGENT"
 }
 
 krisha_url = "https://krisha.kz/prodazha/kvartiry/almaty-almalinskij/?das[_sys.hasphoto]=1&das[live.rooms]=2"
