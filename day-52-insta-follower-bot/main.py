@@ -5,8 +5,8 @@ from selenium.webdriver.common.keys import Keys
 
 chrome_driver_path = "C:/Users/77472/Desktop/web development/chromedriver.exe"
 
-USERNAME = "pixu_and_python"
-PASSWORD = "enderman007"
+USERNAME = "YOUR_USERNAME"
+PASSWORD = "YOUR_PASSWORD"
 url = "https://www.instagram.com/"
 
 
