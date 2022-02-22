@@ -1,0 +1,64 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}Restaurants{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+
+            <h1>All Cafes</h1>
+
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">
+                        Cafe Name
+                    </th>
+                    <th scope="col">
+                        Location
+                    </th>
+                    <th scope="col">
+                        Open
+                    </th>
+                    <th scope="col">
+                        Closes
+                    </th>
+                    <th scope="col">
+                        Coffee
+                    </th>
+                    <th scope="col">
+                        Wi-fi
+                    </th>
+                    <th scope="col">
+                        Power
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for cafe in cafes[1:]: %}
+                <tr>
+                    {% for row in range(cafe_len): %}
+                    {% if cafe[row] == cafe[1]: %}
+                    <td><a target=”_blank” href="{{ cafe[1] }}">Map Link</a></td>
+                    {% else: %}
+                    <td>{{cafe[row]}}</td>
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+                </tbody>
+
+                <!-- This is where you will write the code to render a Bootstrap
+                Table that contains all the information from the
+                cafe-data.csv file. -->
+            </table>
+            <button type="button" class="btn btn-secondary"><a style="text-decoration: none;" href="{{ url_for('home') }}">Return to main page</a></button>
+            <p class="btn secondary-btn btn-large" ></p>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}
